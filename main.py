@@ -6,7 +6,7 @@ data_dado.drop(['Enchente','Baixamar','Preamar'], inplace=True)
 # A linha de código acima, serve para deixar somente os dados caracterizados como vazantes
 
 
-# ** MEDIA DAS VARIÁVEIS PEDIDAS  **
+# ** MÉDIA DAS VARIÁVEIS PEDIDAS  **
 
 data_temperatura= data_dado['T (oC)']
 media_temperatura= mean(data_temperatura) # Media da temperatura
